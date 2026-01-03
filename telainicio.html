@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padaria Super Pão</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecario">
+        <section>
+            <a href="#" class="logo-container">
+                <img width="50" height="50" src="https://img.icons8.com/pastel-glyph/64/FFFFFF/fast-food--v2.png" alt="Logo"/>
+            </a>
+            <h1>Super Pão</h1>
+            
+            <nav class="desktop-nav">
+                <a href="#Home">Home</a>
+                <a href="#Produtos">Produtos</a>
+                <a href="#form">Clube Pão</a>
+                <a href="#Sobre">Sobre</a>
+                <a href="#Contato">Contato</a>
+            </nav>
+
+            <div class="Icons">
+                <img id="lupa" width="40" height="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/search--v1.png" alt="Buscar"/>
+                <div class="barraps" id="barraps">
+                    <searchbox>
+                        <input type="text" placeholder="Pesquisar pão, doce...">
+                    </searchbox>
+                </div>
+
+                <img id="menu" width="40" height="40" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/circled-menu--v1.png" alt="Menu"/>
+                
+                <div class="barramenu" id="barramenu">
+                    <a href="#Home">Início</a>
+                    <a href="#Produtos">Nossos Produtos</a>
+                    <a href="#form">Clube de Descontos</a>
+                    <a href="#Sobre">Sobre Nós</a>
+                    <a href="#Contato">Fale Conosco</a>
+                </div>
+            </div>
+        </section>
+    </header>
+    
+    <main>
+        <div class="Principal">
+            <section id="Home">
+                <div class="content">
+                    <h2>Bem-vindo à Super Pão</h2>
+                    <p>Sabor, qualidade e frescor todos os dias. Trabalhamos com ingredientes selecionados para garantir os melhores momentos da sua rotina.</p>
+                    <a href="#Produtos" class="btn">Ver Produtos</a>
+                </div>
+            </section>
+        </div>
+
+        <div class="produtos">
+            <section id="Produtos">
+                <h2>Nossos <span>Destaques</span></h2>
+                <p>Confira o que acabou de sair do forno!</p>
+                
+                <div class="produtos-grid">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=400&auto=format&fit=crop" alt="Pão Francês">
+                        </div>
+                        <div class="card-content">
+                            <h3>Pão Francês</h3>
+                            <p>Crocante por fora, macio por dentro. Fornada toda hora.</p>
+                            <div class="price">R$ 0,90 <span class="unit">/un</span></div>
+                            <button class="btn-card">Encomendar</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="https://images.unsplash.com/photo-1550617931-e17a7b70dce2?q=80&w=400&auto=format&fit=crop" alt="Sonho">
+                        </div>
+                        <div class="card-content">
+                            <h3>Sonho de Creme</h3>
+                            <p>Massa leve polvilhada com açúcar e muito recheio.</p>
+                            <div class="price">R$ 4,50 <span class="unit">/un</span></div>
+                            <button class="btn-card">Encomendar</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="https://images.unsplash.com/photo-1555507036-ab1f40388085?q=80&w=400&auto=format&fit=crop" alt="Croissant">
+                        </div>
+                        <div class="card-content">
+                            <h3>Croissant</h3>
+                            <p>A autêntica receita francesa, amanteigado e folhado.</p>
+                            <div class="price">R$ 6,00 <span class="unit">/un</span></div>
+                            <button class="btn-card">Encomendar</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="https://images.unsplash.com/photo-1579693175866-932b7337cb10?q=80&w=400&auto=format&fit=crop" alt="Bolo">
+                        </div>
+                        <div class="card-content">
+                            <h3>Bolo Caseiro</h3>
+                            <p>Bolo de cenoura com chocolate. Fatia generosa.</p>
+                            <div class="price">R$ 5,00 <span class="unit">/fatia</span></div>
+                            <button class="btn-card">Encomendar</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="sobre">
+            <section id="Sobre">
+                <h2>Sobre <span>Nós</span></h2>
+                <p>Há mais de 10 anos trazendo o melhor sabor para sua mesa. Cada produto é feito com amor e ingredientes de alta qualidade.</p>
+                <img src="/img/Padaria.webp" onerror="this.src='https://images.unsplash.com/photo-1517433670267-08bbd4be890f?q=80&w=800'" alt="Interior da Padaria"/>
+            </section>
+        </div>
+
+        <div class="newsletter">
+            <section id="form">
+                <div class="form-content">
+                    <h2>Clube <span>Super Pão</span></h2>
+                    <p>Inscreva-se para receber promoções exclusivas e cupons de desconto!</p>
+                    
+                    <form action="#" method="POST"> 
+                        <div class="input-group">
+                            <input type="text" placeholder="Seu Nome" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" placeholder="Seu Melhor E-mail" required>
+                        </div>
+                        <button type="submit" class="btn-form">Quero Descontos</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+
+        <div class="contato">
+            <section id="Contato">
+                <h2>Contato <span>Nosso</span></h2>
+                <p>Rua das Flores, 123, Centro</p>
+                <p>(11) 1234-5678 | contato@superpao.com</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3257.652337960361!2d-43.951469!3d-19.9269321!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa697b93d8d0343%3A0xbd4813031702168c!2sTemplate%20para%20Profissionais%20Aut%C3%B4nomos!5e1!3m2!1spt-BR!2sbr!4v1767468582245!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social-icons">
+            <a href="#"><img width="40" height="40" src="https://img.icons8.com/3d-fluency/94/instagram-logo.png" alt="insta"/></a>
+            <a href="#"><img width="40" height="40" src="https://img.icons8.com/color/48/facebook-new.png" alt="face"/></a>
+            <a href="#"><img width="40" height="40" src="https://img.icons8.com/color/48/youtube-play.png" alt="yt"/></a>
+        </div>
+        <p>© 2025 Padaria Super Pão. Todos os direitos reservados.</p>     
+    </footer>
+    <script src="site.js"></script>
+</body>
+</html>
